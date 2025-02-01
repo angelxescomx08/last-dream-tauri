@@ -9,6 +9,7 @@ function App() {
         frameWidth={32}
         frameHeight={32}
         layout={{ type: "2D", rows: 10, columns: 10 }}
+        animation2D={{ mode: "row", index: 0 }}
         fps={10}
         scale={2}
       />
